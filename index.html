@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="100+ free creative writing prompts for middle schoolers. Fun daily journal ideas for 6th, 7th & 8th grade with printable PDF worksheets.">
+    <meta name="keywords" content="writing prompts for middle school, daily writing prompts for kids, 6th grade writing prompts, fun journal prompts, free printable writing prompts PDF">
+    <title>100+ Free Writing Prompts for Middle School | Creative Journal Ideas</title>
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yourwebsite.com/writing-prompts" />
+    
+    <!-- Preloads -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" as="image">
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Middle School Writing Prompts",
+      "description": "Collection of 100+ creative writing prompts for middle school students",
+      "publisher": {
+        "@type": "Organization",
+        "name": "MiddleSchoolPrompts"
+      }
+    }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* ====== ROOT & GLOBAL STYLES ====== */
+        :root {
+            --primary: #4CAF50;       /* Green */
+            --secondary: #FF9800;     /* Orange */
+            --accent: #2196F3;        /* Blue */
+            --light: #FFF9C4;        /* Light Yellow */
+            --dark: #333;
+            --white: #fff;
+            
+            /* Fonts */
+            --heading-font: 'Fredoka One', cursive;
+            --body-font: 'Comic Neue', cursive;
+            
+            /* Shadows & Effects */
+            --shadow-sm: 0 2px 5px rgba(0,0,0,0.1);
+            --shadow-md: 0 4px 10px rgba(0,0,0,0.15);
+            --shadow-lg: 0 8px 20px rgba(0,0,0,0.2);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: var(--body-font);
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: #f5f5f5;
+            overflow-x: hidden;
+        }
+
+        /* Hide both ad sidebars on all screen sizes */
+        .ad-sidebar {
+            display: none !important;
+        }
+
+        .layout-wrapper {
+            display: block;
+            min-height: 100vh;
+            max-width: 1400px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        
+        /* ====== TYPOGRAPHY ====== */
+        h1, h2, h3 {
+            font-family: var(--heading-font);
+            color: var(--primary);
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+        
+        h1 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            text-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+            animation: bounceIn 1s ease;
+        }
+        
+        h2 {
+            font-size: clamp(1.5rem, 4vw, 2.2rem);
+            border-bottom: 3px dashed var(--secondary);
+            padding-bottom: 0.5rem;
+            display: inline-block;
+        }
+        
+        h3 {
+            font-size: clamp(1.2rem, 3vw, 1.6rem);
+            color: var(--accent);
+        }
+        
+        p {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        /* ====== LAYOUT ====== */
+        section {
+            padding: 3rem 0;
+            position: relative;
+        }
+        
+        /* ====== HEADER (STICKY) ====== */
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: var(--shadow-md);
+            transition: all 0.3s ease;
+            width: 100%;
+        }
+        
+        header.scrolled {
+            padding: 0.5rem 0;
+            background-color: rgba(76, 175, 80, 0.95);
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        
+        .logo {
+            font-family: var(--heading-font);
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 1.5rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            padding: 0.5rem;
+            border-radius: 5px;
+        }
+        
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+        
+        /* ====== HERO SECTION (PARALLAX) ====== */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+                        url('https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center;
+            background-size: cover;
+            background-attachment: fixed;
+            color: white;
+            text-align: center;
+            padding: 6rem 0;
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.4);
+            z-index: 1;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .hero h1 {
+            color: white;
+            margin-bottom: 1.5rem;
+            animation: fadeInUp 1s ease;
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            animation: fadeInUp 1s 0.2s ease both;
+        }
+        
+        /* ====== BUTTONS ====== */
+        .btn {
+            display: inline-block;
+            background-color: var(--secondary);
+            color: white;
+            padding: 0.8rem 1.8rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-sm);
+            border: none;
+            cursor: pointer;
+            animation: pulse 2s infinite;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: var(--shadow-md);
+            background-color: #FF8C00;
+        }
+        
+        .btn-primary {
+            background-color: var(--accent);
+        }
+        
+        .btn-primary:hover {
+            background-color: #1976D2;
+        }
+        
+        /* ====== PROMPTS SECTIONS ====== */
+        .prompts-section {
+            background-color: var(--white);
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s ease;
+            border-left: 5px solid var(--primary);
+        }
+        
+        .prompts-section:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .prompts-list {
+            columns: 2;
+            column-gap: 2rem;
+            list-style-type: none;
+        }
+        
+        .prompts-list li {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            position: relative;
+            break-inside: avoid;
+        }
+        
+        .prompts-list li::before {
+            content: "✏️";
+            position: absolute;
+            left: 0;
+        }
+        
+        /* ====== GRADE TABS ====== */
+        .grade-tabs {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .grade-tab {
+            padding: 0.5rem 1rem;
+            background-color: var(--light);
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+        
+        .grade-tab.active {
+            background-color: var(--accent);
+            color: white;
+        }
+        
+        .grade-content {
+            display: none;
+        }
+        
+        .grade-content.active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        /* ====== CTA SECTION ====== */
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: white;
+            text-align: center;
+            padding: 4rem 0;
+            border-radius: 15px;
+            margin: 3rem 0;
+            box-shadow: var(--shadow-lg);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cta-section h2 {
+            color: white;
+            border-bottom: 3px dashed white;
+        }
+        
+        /* ====== FAQ SECTION ====== */
+        .faq-item {
+            margin-bottom: 1.5rem;
+            background-color: var(--white);
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s ease;
+        }
+        
+        .faq-item:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .faq-question {
+            font-weight: bold;
+            color: var(--accent);
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .faq-question::before {
+            content: "❓";
+        }
+        
+        /* ====== NEW SEO CONTENT SECTION ====== */
+        .seo-content {
+            background-color: var(--light);
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+        }
+        
+        .seo-content h2 {
+            color: var(--dark);
+            border-bottom: 3px dashed var(--primary);
+        }
+        
+        /* ====== PRIVACY POLICY MODAL ====== */
+        .privacy-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.7);
+            z-index: 2000;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .privacy-content {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+            position: relative;
+        }
+        
+        .close-privacy {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        
+        /* ====== FOOTER ====== */
+        footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 3rem 0 1.5rem;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: var(--secondary);
+            transform: translateY(-2px);
+        }
+        
+        .copyright {
+            margin-top: 2rem;
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+        
+        /* ====== ANIMATIONS ====== */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes bounceIn {
+            0% {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+        
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(255, 152, 0, 0.7);
+            }
+            70% {
+                transform: scale(1.05);
+                box-shadow: 0 0 0 10px rgba(255, 152, 0, 0);
+            }
+            100% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(255, 152, 0, 0);
+            }
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        /* ====== RESPONSIVE DESIGN ====== */
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            nav ul {
+                gap: 1rem;
+            }
+            
+            .prompts-list {
+                columns: 1;
+            }
+            
+            section {
+                padding: 2rem 0;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .hero {
+                padding: 4rem 0;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero p {
+                font-size: 1.1rem;
+            }
+            
+            .btn {
+                padding: 0.7rem 1.5rem;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- ====== STICKY HEADER ====== -->
+    <header id="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <span>✏️</span>
+                <span>MiddleSchoolPrompts</span>
+            </div>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="#creative">Creative Prompts</a></li>
+                    <li><a href="#fun">Fun Prompts</a></li>
+                    <li><a href="#journal">Daily Journal</a></li>
+                    <li><a href="#download">Free PDF</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ====== AD SIDEBARS & MAIN CONTENT WRAPPER ====== -->
+    <div class="layout-wrapper">
+        <!-- Left Ad Space (hidden with CSS) -->
+        <aside class="ad-sidebar ad-left">
+            <div class="ad-container">
+                <img src="https://via.placeholder.com/160x600" alt="Advertisement" class="ad-image" loading="lazy">
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main id="main-content" class="container" role="main">
+            <!-- ====== HERO SECTION (PARALLAX) ====== -->
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>100+ Creative Writing Prompts for Middle School Students</h1>
+                    <p>Spark creativity and make writing fun with our collection of engaging daily writing prompts perfect for 6th, 7th, and 8th graders!</p>
+                    <a href="#download" class="btn btn-primary">Get Your Free PDF</a>
+                </div>
+            </section>
+
+            <!-- ====== INTRO SECTION ====== -->
+            <section>
+                <h2>Why Use Writing Prompts?</h2>
+                <p>Writing prompts are a fantastic way to help middle school students develop their creative writing skills, express themselves, and overcome writer's block. Our collection includes <strong>fun, imaginative, and thought-provoking prompts</strong> that will keep your students engaged and excited about writing!</p>
+                
+                <!-- New SEO Content Section -->
+                <div class="seo-content">
+                    <h2>Fun Writing Prompts for Middle School Success</h2>
+                    <p>Middle school writing prompts help students develop essential skills while making the writing process enjoyable. Our daily writing prompts for kids are designed to:</p>
+                    <ul class="prompts-list">
+                        <li>Spark creativity with unique story starters</li>
+                        <li>Build confidence in writing abilities</li>
+                        <li>Encourage self-expression through journal prompts</li>
+                        <li>Develop critical thinking skills</li>
+                        <li>Make writing practice fun and engaging</li>
+                    </ul>
+                    <p>Whether you're looking for 6th grade writing prompts or more advanced middle school journal ideas, our collection has something for every young writer.</p>
+                </div>
+            </section>
+
+            <!-- ====== CREATIVE WRITING PROMPTS ====== -->
+            <section id="creative" class="prompts-section">
+                <h2>Creative Writing Prompts</h2>
+                <p>These imaginative prompts will take your students on wild adventures and spark their creativity!</p>
+                
+                <ul class="prompts-list">
+                    <li>You discover a hidden door in your school locker. Where does it lead?</li>
+                    <li>Write a story about a character who can freeze time for 10 minutes each day.</li>
+                    <li>Imagine your pet could talk. What secrets would they reveal?</li>
+                    <li>You wake up with the ability to breathe underwater. Describe your first day.</li>
+                    <li>Create a new planet and describe what life is like there.</li>
+                    <li>You find a magic pencil that makes everything you draw come to life.</li>
+                    <li>Write about a day when all the teachers and students switched places.</li>
+                    <li>Describe a world where children make all the rules.</li>
+                    <li>You receive a letter from your future self. What does it say?</li>
+                    <li>Invent a new holiday and explain how people celebrate it.</li>
+                    <li>Your favorite book character shows up at your school. What happens next?</li>
+                    <li>Write a story that begins with: "The map was wrong, and now we're lost..."</li>
+                    <li>Describe a museum where all the exhibits come to life at night.</li>
+                    <li>You discover your family has a secret superpower. What is it?</li>
+                    <li>Create a new mythical creature and describe its special abilities.</li>
+                    <li>Write about a school where every classroom is in a different time period.</li>
+                    <li>You find a pair of glasses that let you see people's true thoughts.</li>
+                    <li>Describe a day when all the colors in the world switched places.</li>
+                    <li>Invent a machine that can solve one world problem. How does it work?</li>
+                    <li>Write about a character who collects sounds instead of objects.</li>
+                    <li>You shrink down to the size of a pencil. Describe your adventures.</li>
+                    <li>Create a new sport that would only work in zero gravity.</li>
+                    <li>Describe a library where the books rewrite themselves every night.</li>
+                    <li>Write about a tree that grows objects instead of fruit.</li>
+                    <li>You discover your shadow has a life of its own. What does it do?</li>
+                </ul>
+            </section>
+
+            <!-- ====== FUN & SILLY PROMPTS ====== -->
+            <section id="fun" class="prompts-section">
+                <h2>Fun & Silly Writing Prompts</h2>
+                <p>These hilarious prompts will have your students laughing while they write!</p>
+                
+                <ul class="prompts-list">
+                    <li>Write a commercial for the world's worst product.</li>
+                    <li>Describe what would happen if animals ran the school for a day.</li>
+                    <li>Create a menu for a restaurant that only serves gross food combinations.</li>
+                    <li>Imagine your shoes could talk. What would they say about you?</li>
+                    <li>Write a news report about the most boring event imaginable.</li>
+                    <li>What if everyone's hair changed color based on their mood?</li>
+                    <li>Describe a day when all the clocks went backward.</li>
+                    <li>Write a story about a superhero whose power is really useless.</li>
+                    <li>What would happen if you had to wear your clothes inside out for a week?</li>
+                    <li>Create a new Olympic sport that's completely ridiculous.</li>
+                    <li>Write a recipe for the world's weirdest pizza topping.</li>
+                    <li>Describe a fashion trend where everyone wears food as clothing.</li>
+                    <li>Invent the silliest law possible and explain why it exists.</li>
+                    <li>Write a job description for a professional bubble wrap popper.</li>
+                    <li>Describe a school where all the classes are about video games.</li>
+                    <li>What if every time someone sneezed, they switched places with a random object?</li>
+                    <li>Create a new emoji that doesn't exist but should.</li>
+                    <li>Write instructions for brushing your teeth... with your opposite hand.</li>
+                    <li>Describe a world where people communicate only through dance.</li>
+                    <li>Invent the worst possible name for a band and describe their music.</li>
+                    <li>Write a Yelp review for the sun (1 star: "Too hot!").</li>
+                    <li>Describe a day when all the school supplies came to life and rebelled.</li>
+                    <li>What if every time you told a lie, your nose actually did grow?</li>
+                    <li>Create the most boring superhero team imaginable.</li>
+                    <li>Write a traffic report for a city where everyone rides unicorns.</li>
+                </ul>
+            </section>
+
+            <!-- ====== JOURNAL PROMPTS ====== -->
+            <section id="journal" class="prompts-section">
+                <h2>Daily Journal Prompts</h2>
+                <p>These reflective prompts are perfect for daily writing practice and self-expression.</p>
+                
+                <ul class="prompts-list">
+                    <li>Describe someone who has made a positive impact on your life.</li>
+                    <li>Write about a time you faced a challenge and how you overcame it.</li>
+                    <li>What does success mean to you? How will you know when you've achieved it?</li>
+                    <li>Describe your perfect day from morning to night.</li>
+                    <li>What are three things you're grateful for today and why?</li>
+                    <li>Write about a time you felt really proud of yourself.</li>
+                    <li>What qualities make someone a good friend?</li>
+                    <li>Describe a place that makes you feel happy and peaceful.</li>
+                    <li>What's something you wish adults understood about kids your age?</li>
+                    <li>Write a letter to your future self 10 years from now.</li>
+                    <li>Describe a skill you'd like to master and why it's important to you.</li>
+                    <li>Write about a time you changed your mind about something important.</li>
+                    <li>What does your dream bedroom look like? Describe it in detail.</li>
+                    <li>What's the most courageous thing you've ever done?</li>
+                    <li>Describe your favorite family tradition and what it means to you.</li>
+                    <li>Write about a time you stood up for someone else.</li>
+                    <li>What's something you believed as a little kid that seems silly now?</li>
+                    <li>Describe a time when you had to be patient. What did you learn?</li>
+                    <li>What's your favorite way to show kindness to others?</li>
+                    <li>Write about a book or movie that changed how you see the world.</li>
+                    <li>Describe your ideal weekend with no limits on time or money.</li>
+                    <li>What's something you're curious about and want to learn more?</li>
+                    <li>Write about a time you worked really hard for something.</li>
+                    <li>Describe someone you admire and what makes them special.</li>
+                    <li>What's one small thing that always makes your day better?</li>
+                </ul>
+            </section>
+
+            <!-- ====== GRADE-SPECIFIC PROMPTS ====== -->
+            <section class="prompts-section">
+                <h2>Grade-Specific Writing Prompts</h2>
+                <p>Find prompts tailored to different middle school grade levels.</p>
+                
+                <div class="grade-tabs">
+                    <div class="grade-tab active" data-grade="6th">6th Grade</div>
+                    <div class="grade-tab" data-grade="7th">7th Grade</div>
+                    <div class="grade-tab" data-grade="8th">8th Grade</div>
+                </div>
+                
+                <div class="grade-content active" id="6th-grade">
+                    <h3>6th Grade Writing Prompts</h3>
+                    <ul class="prompts-list">
+                        <li>Write about your transition from elementary to middle school.</li>
+                        <li>Describe your favorite childhood memory in detail.</li>
+                        <li>If you could invent something to make school better, what would it be?</li>
+                        <li>Write a guide for new students at your school.</li>
+                        <li>What's the best advice you've ever received?</li>
+                        <li>Describe your ideal weekend with friends.</li>
+                        <li>Write about a time you tried something new.</li>
+                        <li>What would you do if you were principal for a day?</li>
+                        <li>Describe your favorite season and what makes it special.</li>
+                        <li>Write about a time you helped someone.</li>
+                    </ul>
+                </div>
+                
+                <div class="grade-content" id="7th-grade">
+                    <h3>7th Grade Writing Prompts</h3>
+                    <ul class="prompts-list">
+                        <li>What does leadership mean to you? Are you a leader?</li>
+                        <li>Describe a historical event you wish you could have witnessed.</li>
+                        <li>Write about a time you had to stand up for what's right.</li>
+                        <li>How do you define "cool"? Is being cool important?</li>
+                        <li>What's something you've changed your mind about recently?</li>
+                        <li>Describe your dream job and why it appeals to you.</li>
+                        <li>Write about a time you worked as part of a team.</li>
+                        <li>What's the most interesting fact you know?</li>
+                        <li>Describe someone who inspires you.</li>
+                        <li>Write about a time you solved a problem creatively.</li>
+                    </ul>
+                </div>
+                
+                <div class="grade-content" id="8th-grade">
+                    <h3>8th Grade Writing Prompts</h3>
+                    <ul class="prompts-list">
+                        <li>What are you most looking forward to in high school?</li>
+                        <li>Write about a time you failed at something and what you learned.</li>
+                        <li>Describe your personal strengths and how they help you.</li>
+                        <li>What world issue concerns you most and why?</li>
+                        <li>What advice would you give to incoming 6th graders?</li>
+                        <li>Describe a time you stepped outside your comfort zone.</li>
+                        <li>Write about a goal you're working toward.</li>
+                        <li>What does "growing up" mean to you?</li>
+                        <li>Describe how you've changed since starting middle school.</li>
+                        <li>Write about a time you made a difficult decision.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- ====== PRINTABLE WORKSHEETS SECTION ====== -->
+            <section class="prompts-section">
+                <h2>Printable Writing Worksheets</h2>
+                <p>Download our free printable writing prompt worksheets with space for students to write their responses:</p>
+                <ul class="prompts-list">
+                    <li>Daily journal prompt worksheets (30 days)</li>
+                    <li>Story starter templates with illustration space</li>
+                    <li>Grade-specific writing prompt packets</li>
+                    <li>Creative writing challenge calendars</li>
+                </ul>
+                <p>Perfect for classroom use or homeschool writing practice!</p>
+            </section>
+
+            <!-- ====== CTA SECTION ====== -->
+            <section id="download" class="cta-section">
+                <h2>Get All 100+ Prompts in One PDF!</h2>
+                <p>Perfect for teachers, homeschoolers, and students who love to write! Includes our free printable writing prompts PDF.</p>
+                <a href="https://drive.google.com/uc?export=download&id=1xiytT9dflCJrWXvagpzADqKlPFYFznpF
+                " class="btn" download="MiddleSchool-Writing-Prompts.pdf">Download Free Printable PDF</a>
+                <p style="margin-top: 1rem; font-size: 0.9rem;">No email required - instant download!</p>
+            </section>
+
+            <!-- ====== FAQ SECTION ====== -->
+            <section>
+                <h2>Frequently Asked Questions</h2>
+                
+                <div class="faq-item">
+                    <p class="faq-question">What are good writing prompts for middle school?</p>
+                    <p>Great middle school writing prompts are engaging, age-appropriate, and spark creativity. Try imaginative story starters, fun 'what if' scenarios, and prompts that connect to their interests. Our collection includes 100+ creative writing prompts for middle school students designed just for 6th, 7th, and 8th graders!</p>
+                </div>
+                
+                <div class="faq-item">
+                    <p class="faq-question">How can I make writing fun for middle school students?</p>
+                    <p>Use silly prompts, creative challenges, and interactive activities! Our fun writing prompts for middle school include story starters, humorous scenarios, and engaging themes that make writing exciting. The daily journal prompts for kids also help build a consistent writing habit.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <p class="faq-question">Where can I get free printable writing prompts?</p>
+                    <p>Download our free PDF with 100+ writing prompts for middle school! Perfect for teachers, homeschoolers, and students looking for inspiration. Our printable worksheets include space for responses and are great for classroom use.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <p class="faq-question">How often should students use writing prompts?</p>
+                    <p>Daily writing practice is ideal! Even 10-15 minutes with our daily writing prompts for kids can significantly improve writing skills. Many teachers use one prompt per day as a warm-up activity.</p>
+                </div>
+            </section>
+        </main>
+
+        <!-- Right Ad Space (hidden with CSS) -->
+        <aside class="ad-sidebar ad-right">
+            <div class="ad-container">
+                <img src="https://via.placeholder.com/160x600" alt="Advertisement" class="ad-image" loading="lazy">
+            </div>
+        </aside>
+    </div>
+
+    <!-- ====== PRIVACY POLICY MODAL ====== -->
+    <div id="privacyModal" class="privacy-modal">
+        <div class="privacy-content">
+            <span class="close-privacy">&times;</span>
+            <h2>Privacy Policy</h2>
+            <p><strong>Last Updated: January 2025</strong></p>
+            
+            <h3>Information We Collect</h3>
+            <p>We do not collect any personal information from visitors to our website. Our free PDF downloads do not require any form of registration or email submission.</p>
+            
+            <h3>Cookies</h3>
+            <p>This website does not use cookies or any tracking technologies.</p>
+            
+            <h3>Third-Party Services</h3>
+            <p>We use Google Fonts for typography, which may collect usage data. All other resources are self-hosted.</p>
+            
+            <h3>Changes to This Policy</h3>
+            <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+        </div>
+    </div>
+
+    <!-- ====== FOOTER ====== -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#creative">Creative Prompts</a>
+                <a href="#fun">Fun Prompts</a>
+                <a href="#journal">Daily Journal</a>
+                <a href="#download">Free PDF</a>
+                <a href="#" id="privacyLink">Privacy Policy</a>
+            </div>
+            <p class="copyright">© 2025 Middle School Writing Prompts. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ====== JAVASCRIPT ====== -->
+    <script>
+        // Sticky Header Effect
+        const header = document.getElementById('main-header');
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+        
+        // Grade Tab Switching
+        const gradeTabs = document.querySelectorAll('.grade-tab');
+        gradeTabs.forEach(tab => {
+            tab.addEventListener('click', function() {
+                // Remove active class from all tabs
+                gradeTabs.forEach(t => t.classList.remove('active'));
+                // Add active class to clicked tab
+                this.classList.add('active');
+                
+                // Hide all grade contents
+                document.querySelectorAll('.grade-content').forEach(content => {
+                    content.classList.remove('active');
+                });
+                
+                // Show selected grade content
+                const grade = this.getAttribute('data-grade');
+                document.getElementById(`${grade}-grade`).classList.add('active');
+            });
+            
+            // Make tabs keyboard accessible
+            tab.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    tab.click();
+                }
+            });
+        });
+        
+        // Smooth Scrolling for Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // PDF Download Tracking
+        document.querySelector('a[download]').addEventListener('click', function() {
+            alert('Thank you for downloading! If the PDF doesn\'t start automatically, check your downloads folder.');
+        });
+        
+        // Privacy Modal
+        const privacyModal = document.getElementById('privacyModal');
+        const privacyLink = document.getElementById('privacyLink');
+        const closePrivacy = document.querySelector('.close-privacy');
+        
+        privacyLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            privacyModal.style.display = 'flex';
+        });
+        
+        closePrivacy.addEventListener('click', function() {
+            privacyModal.style.display = 'none';
+        });
+        
+        window.addEventListener('click', function(e) {
+            if (e.target === privacyModal) {
+                privacyModal.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
