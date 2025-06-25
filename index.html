@@ -222,6 +222,66 @@
             animation: fadeInUp 1s 0.2s ease both;
         }
         
+        /* ====== ABOUT SECTION ====== */
+        .about-section {
+            padding: 4rem 0;
+            background-color: #f9f9f9;
+        }
+
+        .about-section h2 {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            color: #2c3e50;
+            font-size: 2.2rem;
+        }
+
+        .about-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .about-text {
+            flex: 1 1 60%;
+            min-width: 300px;
+        }
+
+        .about-image {
+            flex: 1 1 35%;
+            min-width: 250px;
+            text-align: center;
+        }
+
+        .about-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: var(--shadow-md);
+        }
+
+        .benefits-list {
+            list-style: none;
+            margin: 1.5rem 0;
+        }
+
+        .benefits-list li {
+            margin-bottom: 0.8rem;
+            padding-left: 2rem;
+            position: relative;
+        }
+
+        .benefits-list li::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.4em;
+            width: 1.2em;
+            height: 1.2em;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        
         /* ====== BUTTONS ====== */
         .btn {
             display: inline-block;
@@ -513,6 +573,14 @@
             section {
                 padding: 2rem 0;
             }
+
+            .about-content {
+                flex-direction: column;
+            }
+
+            .about-text, .about-image {
+                flex: 1 1 100%;
+            }
         }
         
         @media (max-width: 480px) {
@@ -545,6 +613,7 @@
             </div>
             <nav aria-label="Main navigation">
                 <ul>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#creative">Creative Prompts</a></li>
                     <li><a href="#fun">Fun Prompts</a></li>
                     <li><a href="#journal">Daily Journal</a></li>
@@ -591,6 +660,33 @@
                         <li>Make writing practice fun and engaging</li>
                     </ul>
                     <p>Whether you're looking for 6th grade writing prompts or more advanced middle school journal ideas, our collection has something for every young writer.</p>
+                </div>
+            </section>
+
+            <!-- ====== ABOUT SECTION ====== -->
+            <section id="about" class="about-section">
+                <div class="container">
+                    <h2>About Our Writing Prompts</h2>
+                    
+                    <div class="about-content">
+                        <div class="about-text">
+                            <h3>Our Mission</h3>
+                            <p>We created MiddleSchoolPrompts to help young writers develop their creativity and writing skills through fun, engaging prompts. Our collection of 100+ writing ideas is designed specifically for 6th, 7th, and 8th grade students.</p>
+                            
+                            <h3>Why Our Prompts Work</h3>
+                            <ul class="benefits-list">
+                                <li>✅ Created by experienced English teachers</li>
+                                <li>✅ Designed to spark creativity and critical thinking</li>
+                                <li>✅ Perfect for daily journaling or classroom activities</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="about-image">
+                            <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+                                 alt="Students writing in classroom" 
+                                 loading="lazy">
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -836,6 +932,7 @@
     <footer>
         <div class="container">
             <div class="footer-links">
+                <a href="#about">About</a>
                 <a href="#creative">Creative Prompts</a>
                 <a href="#fun">Fun Prompts</a>
                 <a href="#journal">Daily Journal</a>
